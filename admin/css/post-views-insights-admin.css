@@ -1,0 +1,102 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.toplevel_page_postviews-insights a .wp-menu-image.dashicons-before img{
+	width: 100%;
+	padding-top: 0px !important;
+}
+.pvi-container {
+    width: 100%;
+}
+table.piv-settings-table.table-left{
+    width: 60%;
+}
+table.piv-settings-table.table-right{
+    width: 40%;
+}
+table.piv-settings-table, .pvi-technichal-guide {
+    background: #fff;
+    padding: 20px;
+    display: block;
+    min-height: 300px;
+    margin-top: 0;
+}
+table.piv-settings-table th {
+    text-align: left;
+    min-width: 200px;
+}
+table.piv-settings-table td {
+    padding-left: 30px;
+}
+table.piv-settings-table tr {
+    padding-top: 15px;
+    display: block;
+}
+table.piv-settings-table th label {
+    display: block;
+    vertical-align: baseline;
+}
+button.pvi-submit-buttton{
+	margin-top: 15px !important;
+}
+span.pvi-field-instructions {
+    float: left;
+    font-size: 12px;
+    color: #9d9d9d;
+    display: block;
+    width: 200px;
+}
+
+/* Tooltip container */
+.piv-tooltip {
+    position: relative;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+/* Tooltip text */
+.piv-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.piv-tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.piv-tooltip img {
+    width: 12px;
+}
+.select2.select2-container{
+    width: 100% !important;
+}
+.pvi-settings-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+table.piv-settings-table.table-right h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+table.piv-settings-table.table-right h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}

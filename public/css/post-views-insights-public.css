@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.pvi-posts-list li{
+	list-style-type: none;
+}
+.pvi-posts-list li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
